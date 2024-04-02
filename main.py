@@ -6,8 +6,7 @@ def count_words(words):
 
 
 def main():
-    with open("books/frankenstein.txt") as f:
-        
+    with open("books/frankenstein.txt") as f:      
         file_contents = f.read()
         count_words(file_contents)
 
